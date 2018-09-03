@@ -1,5 +1,4 @@
 # TCAR
-TCAR Project.
 
 TCAR 是一個未完成的 Project.
 
