@@ -1,0 +1,26 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '10.0'
+use_frameworks!
+
+  target 'TCAR' do
+    pod 'IQKeyboardManagerSwift', '>= 5.0.0'
+    pod 'Fabric'
+    pod 'Crashlytics'
+    pod 'SwiftyJSON'
+    pod 'Alamofire', '~> 4.5'
+    pod 'AlamofireImage', '~> 3.3'
+    pod 'GoogleMaps'
+    pod 'GooglePlaces'
+    pod 'JSSAlertView'
+    pod 'PCLBlurEffectAlert'
+  end
+
+  target 'TCARTests' do
+    inherit! :search_paths
+  end
+
+  target 'TCARUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+

@@ -1,0 +1,351 @@
+
+/* Class = "UIButton"; normalTitle = "輸入完畢請按此註冊"; ObjectID = "0WN-Xp-Wan"; */
+"0WN-Xp-Wan.normalTitle" = "輸入完畢請按此註冊";
+
+/* Class = "UILabel"; text = "距離下次升級:"; ObjectID = "2GY-JK-FvS"; */
+"2GY-JK-FvS.text" = "距離下次升級:";
+
+/* Class = "UILabel"; text = "距離下次升級:"; ObjectID = "qjO-b7-arD"; */
+"qjO-b7-arD.text" = "距離下次升級:";
+
+/* Class = "UILabel"; text = "獲得評價次數:"; ObjectID = "44D-VC-EGt"; */
+"44D-VC-EGt.text" = "獲得評價次數:";
+
+/* Class = "UILabel"; text = "獲得評價次數:"; ObjectID = "KD6-PF-JTQ"; */
+"KD6-PF-JTQ.text" = "獲得評價次數:";
+
+/* Class = "UILabel"; text = "評比："; ObjectID = "4Mo-9t-Rig"; */
+"4Mo-9t-Rig.text" = "評比：";
+
+/* Class = "UIButton"; normalTitle = "電話號碼"; ObjectID = "4Wm-6S-DE8"; */
+"4Wm-6S-DE8.normalTitle" = "電話號碼";
+
+/* Class = "UIBarButtonItem"; title = "關於我"; ObjectID = "4fO-ZY-6lO"; */
+"4fO-ZY-6lO.title" = "關於我";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "4gM-U9-zVU"; */
+"4gM-U9-zVU.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "5Gm-AF-hXo"; */
+"5Gm-AF-hXo.text" = "Label";
+
+/* Class = "UILabel"; text = "歡迎使用TCAR叫車服務系統"; ObjectID = "6vB-yA-zid"; */
+"6vB-yA-zid.text" = "歡迎使用TCAR叫車服務系統";
+
+/* Class = "UILabel"; text = "首次使用請先註冊"; ObjectID = "79j-v6-dOQ"; */
+"79j-v6-dOQ.text" = "首次使用請先註冊";
+
+/* Class = "UITabBarItem"; title = "個人資料"; ObjectID = "7Qq-n9-Iid"; */
+"7Qq-n9-Iid.title" = "個人資料";
+
+/* Class = "UIButton"; normalTitle = "預約包車"; ObjectID = "7sL-sg-JOF"; */
+"7sL-sg-JOF.normalTitle" = "預約包車";
+
+/* Class = "UIButton"; normalTitle = "完成此訂單"; ObjectID = "810-PJ-0FN"; */
+"810-PJ-0FN.normalTitle" = "完成此訂單";
+
+/* Class = "UITextField"; placeholder = "乘坐人數："; ObjectID = "8OD-L7-tId"; */
+"8OD-L7-tId.placeholder" = "乘坐人數：";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "9D9-63-db3"; */
+"9D9-63-db3.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "傳送驗證碼"; ObjectID = "9HP-3V-kXK"; */
+"9HP-3V-kXK.normalTitle" = "傳送驗證碼";
+
+/* Class = "UIButton"; normalTitle = "預約包車"; ObjectID = "9Wr-jy-fpJ"; */
+"9Wr-jy-fpJ.normalTitle" = "預約包車";
+
+/* Class = "UILabel"; text = "平均分數"; ObjectID = "Atx-de-EWr"; */
+"Atx-de-EWr.text" = "平均分數";
+
+/* Class = "UILabel"; text = "平均分數"; ObjectID = "9r9-wU-mMl"; */
+"9r9-wU-mMl.text" = "平均分數";
+
+/* Class = "UILabel"; text = "關於我們 ："; ObjectID = "BjM-ms-1Ys"; */
+"BjM-ms-1Ys.text" = "關於我們 ：";
+
+/* Class = "UIButton"; normalTitle = "即時叫車"; ObjectID = "BoI-1N-EcB"; */
+"BoI-1N-EcB.normalTitle" = "即時叫車";
+
+/* Class = "UILabel"; text = "成員二"; ObjectID = "CA7-rO-cz9"; */
+"CA7-rO-cz9.text" = "成員二";
+
+/* Class = "UITextField"; placeholder = "目的地點："; ObjectID = "CLz-tE-n7Y"; */
+"CLz-tE-n7Y.placeholder" = "目的地點：";
+
+/* Class = "UILabel"; text = "我的等級:"; ObjectID = "CM9-yp-ZaT"; */
+"CM9-yp-ZaT.text" = "我的等級:";
+
+/* Class = "UILabel"; text = "成員五"; ObjectID = "DPG-lC-JGn"; */
+"DPG-lC-JGn.text" = "成員五";
+
+/* Class = "UILabel"; text = "車牌："; ObjectID = "DWf-Yj-zoc"; */
+"DWf-Yj-zoc.text" = "車牌：";
+
+/* Class = "UIButton"; normalTitle = "叫車 Go"; ObjectID = "EP5-GS-cZ9"; */
+"EP5-GS-cZ9.normalTitle" = "叫車 Go";
+
+/* Class = "UIButton"; normalTitle = "開始任務"; ObjectID = "6ev-q1-J4e"; */
+"6ev-q1-J4e.normalTitle" = "開始任務";
+
+/* Class = "UIButton"; normalTitle = "取消訂單"; ObjectID = "6g3-u3-dgE"; */
+"6g3-u3-dgE.normalTitle" = "取消訂單";
+
+/* Class = "UILabel"; text = "營業登記證號："; ObjectID = "ERG-Hy-Fdo"; */
+"ERG-Hy-Fdo.text" = "營業登記證號：";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "FZY-w2-2Mc"; */
+"FZY-w2-2Mc.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "預約叫車"; ObjectID = "GYS-ku-WOc"; */
+"GYS-ku-WOc.normalTitle" = "預約叫車";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Gd6-6a-NZc"; */
+"Gd6-6a-NZc.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "H8o-nS-nZF"; */
+"H8o-nS-nZF.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "HPr-BO-O9h"; */
+"HPr-BO-O9h.text" = "Label";
+
+/* Class = "UILabel"; text = "成員四"; ObjectID = "HR0-nI-2NT"; */
+"HR0-nI-2NT.text" = "成員四";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "HiG-Wk-XMF"; */
+"HiG-Wk-XMF.text" = "Label";
+
+/* Class = "UILabel"; text = "歡迎使用TCAR叫車系統"; ObjectID = "JqW-PM-m4a"; */
+"JqW-PM-m4a.text" = "歡迎使用TCAR叫車系統";
+
+/* Class = "UILabel"; text = "想要註冊司機嗎？請點選關於我們！"; ObjectID = "K09-iT-5zX"; */
+"K09-iT-5zX.text" = "想要註冊司機嗎？請點選關於我們！";
+
+/* Class = "UIButton"; normalTitle = "登出"; ObjectID = "KF6-KU-a8d"; */
+"KF6-KU-a8d.normalTitle" = "登出";
+
+/* Class = "UILabel"; text = "司機電話："; ObjectID = "Ka2-bY-Ure"; */
+"Ka2-bY-Ure.text" = "聯絡司機：";
+
+/* Class = "UITabBarItem"; title = "個人資料"; ObjectID = "L49-oI-8b5"; */
+"L49-oI-8b5.title" = "個人資料";
+
+/* Class = "UITabBarItem"; title = "歷史紀錄"; ObjectID = "MGP-tT-db4"; */
+"MGP-tT-db4.title" = "歷史紀錄";
+
+/* Class = "UIButton"; normalTitle = "返回"; ObjectID = "MUL-mP-ZFK"; */
+"MUL-mP-ZFK.normalTitle" = "返回";
+
+/* Class = "UILabel"; text = "成員三"; ObjectID = "MeH-CQ-bCb"; */
+"MeH-CQ-bCb.text" = "成員三";
+
+/* Class = "UILabel"; text = "想要成為苗栗最優質的司機？"; ObjectID = "OVj-sX-sOM"; */
+"OVj-sX-sOM.text" = "想要成為苗栗最優質的司機？";
+
+/* Class = "UISegmentedControl"; OaR-I7-UG8.segmentTitles[0] = "女"; ObjectID = "OaR-I7-UG8"; */
+"OaR-I7-UG8.segmentTitles[0]" = "女";
+
+/* Class = "UISegmentedControl"; OaR-I7-UG8.segmentTitles[1] = "男"; ObjectID = "OaR-I7-UG8"; */
+"OaR-I7-UG8.segmentTitles[1]" = "男";
+
+/* Class = "UIButton"; normalTitle = "Push"; ObjectID = "P0Y-XM-FGO"; */
+"P0Y-XM-FGO.normalTitle" = "Push";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "P4g-ny-pAX"; */
+"P4g-ny-pAX.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Pe1-Jq-wYt"; */
+"Pe1-Jq-wYt.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "0932313520"; ObjectID = "PeY-dG-imt"; */
+"PeY-dG-imt.normalTitle" = "0932313520";
+
+/* Class = "UIButton"; normalTitle = "查看歷程評比"; ObjectID = "RVN-7T-Jfc"; */
+"RVN-7T-Jfc.normalTitle" = "查看歷程評比";
+
+/* Class = "UILabel"; text = "我的平均分數:"; ObjectID = "SyG-ra-TOB"; */
+"SyG-ra-TOB.text" = "我的平均分數:";
+
+/* Class = "UILabel"; text = "我的平均分數:"; ObjectID = "gyv-1T-tbd"; */
+"gyv-1T-tbd.text" = "我的平均分數:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "X6t-yk-bxU"; */
+"X6t-yk-bxU.text" = "Label";
+
+/* Class = "UILabel"; text = "車種："; ObjectID = "Y1i-3B-aWW"; */
+"Y1i-3B-aWW.text" = "車種:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ZjZ-kH-dLI"; */
+"ZjZ-kH-dLI.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "aaS-MN-LOH"; */
+"aaS-MN-LOH.text" = "Label";
+
+/* Class = "UILabel"; text = "Car_Vehicle"; ObjectID = "blX-2L-6XC"; */
+"blX-2L-6XC.text" = "Car_Vehicle";
+
+/* Class = "UIButton"; normalTitle = "登入"; ObjectID = "cAG-0R-gM8"; */
+"cAG-0R-gM8.normalTitle" = "登入";
+
+/* Class = "UIBarButtonItem"; title = "取消"; ObjectID = "dOn-CR-HuL"; */
+"dOn-CR-HuL.title" = "取消";
+
+/* Class = "UIBarButtonItem"; title = "取消"; ObjectID = "c1R-U8-gu2"; */
+"c1R-U8-gu2.title" = "取消";
+
+/* Class = "UIBarButtonItem"; title = "返回"; ObjectID = "4t6-QZ-QVQ"; */
+"4t6-QZ-QVQ.title" = "返回";
+
+/* Class = "UIBarButtonItem"; title = "傳送"; ObjectID = "HnX-9B-Qqb"; */
+"HnX-9B-Qqb.title" = "傳送";
+
+/* Class = "UILabel"; text = "預計到達時間："; ObjectID = "dmu-hF-p9H"; */
+"dmu-hF-p9H.text" = "預計到達時間：";
+
+/* Class = "UIButton"; normalTitle = "返回登入畫面"; ObjectID = "dwI-Nv-CLE"; */
+"dwI-Nv-CLE.normalTitle" = "返回登入畫面";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "eMb-kK-85b"; */
+"eMb-kK-85b.text" = "Label";
+
+/* Class = "UILabel"; text = "已有帳號可點選登入返回登入畫面"; ObjectID = "eiD-9Q-9Ds"; */
+"eiD-9Q-9Ds.text" = "已有帳號可點選登入返回登入畫面";
+
+/* Class = "UIButton"; normalTitle = "註冊"; ObjectID = "fBA-pN-kCy"; */
+"fBA-pN-kCy.normalTitle" = "註冊";
+
+/* Class = "UIButton"; normalTitle = "即時叫車"; ObjectID = "fG6-0T-j5F"; */
+"fG6-0T-j5F.normalTitle" = "即時叫車";
+
+/* Class = "UILabel"; text = "我的等級:"; ObjectID = "fZA-DE-VlQ"; */
+"fZA-DE-VlQ.text" = "我的等級:";
+
+/* Class = "UILabel"; text = "狀態 :"; ObjectID = "KmV-RR-BHD"; */
+"KmV-RR-BHD.text" = "狀態 :";
+
+/* Class = "UILabel"; text = "目的地 :"; ObjectID = "nc0-N8-Oqh"; */
+"nc0-N8-Oqh.text" = "目的地 :";
+
+/* Class = "UIBarButtonItem"; title = "傳送"; ObjectID = "gIb-rp-GBL"; */
+"gIb-rp-GBL.title" = "傳送";
+
+/* Class = "UIBarButtonItem"; title = "致電乘客"; ObjectID = "EPj-9c-kHa"; */
+"EPj-9c-kHa.title" = "致電乘客";
+
+/* Class = "UITabBarItem"; title = "我的最愛"; ObjectID = "hQh-n7-ZXf"; */
+"hQh-n7-ZXf.title" = "我的最愛";
+
+/* Class = "UILabel"; text = "會員資料"; ObjectID = "hmc-6b-Vsv"; */
+"hmc-6b-Vsv.text" = "會員資料";
+
+/* Class = "UILabel"; text = "司機資料"; ObjectID = "FZY-w2-2Mc"; */
+"FZY-w2-2Mc.text" = "司機資料";
+
+/* Class = "UILabel"; text = "會員名稱:"; ObjectID = "Vy7-lr-MbF"; */
+"Vy7-lr-MbF.text" = "會員名稱:";
+
+/* Class = "UILabel"; text = "司機名稱:"; ObjectID = "0H4-at-EnA"; */
+"0H4-at-EnA.text" = "司機名稱:";
+
+/* Class = "UIButton"; normalTitle = "關於我們"; ObjectID = "jHQ-Ci-kGq"; */
+"jHQ-Ci-kGq.normalTitle" = "關於我們";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "jut-ff-DU2"; */
+"jut-ff-DU2.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "k3p-7S-xfM"; */
+"k3p-7S-xfM.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "備註："; ObjectID = "lxO-32-9Y7"; */
+"lxO-32-9Y7.placeholder" = "備註：";
+
+/* Class = "UILabel"; text = "還沒有帳號嗎？請在這裡註冊哦！"; ObjectID = "mv2-Sg-P7m"; */
+"mv2-Sg-P7m.text" = "還沒有帳號嗎？請在這裡註冊哦！";
+
+/* Class = "UIBarButtonItem"; title = "⚙️"; ObjectID = "ns9-ru-2TZ"; */
+"ns9-ru-2TZ.title" = "⚙️";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "pzl-QV-ba3"; */
+"pzl-QV-ba3.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "上車地點："; ObjectID = "q07-cv-P8s"; */
+"q07-cv-P8s.placeholder" = "上車地點：";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "qUq-VB-0Q5"; */
+"qUq-VB-0Q5.text" = "Name";
+
+/* Class = "UITabBarItem"; title = "我的最愛"; ObjectID = "qZy-1V-zp3"; */
+"qZy-1V-zp3.title" = "歷史紀錄";
+
+/* Class = "UILabel"; text = "性別："; ObjectID = "qyq-h6-87E"; */
+"qyq-h6-87E.text" = "性別：";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "rqf-7L-Tb4"; */
+"rqf-7L-Tb4.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "s9L-ks-IVF"; */
+"s9L-ks-IVF.text" = "Label";
+
+/* Class = "UIBarButtonItem"; title = "關於我"; ObjectID = "skX-gA-ONR"; */
+"skX-gA-ONR.title" = "關於我";
+
+/* Class = "UINavigationItem"; title = "此次搭乘評比"; ObjectID = "tUl-jN-9hc"; */
+"tUl-jN-9hc.title" = "此次搭乘評比";
+
+/* Class = "UINavigationItem"; title = "此次搭乘評比"; ObjectID = "B0S-vH-UTK"; */
+"B0S-vH-UTK.title" = "此次搭乘評比";
+
+/* Class = "UILabel"; text = "成員一"; ObjectID = "tri-5d-Phg"; */
+"tri-5d-Phg.text" = "成員一";
+
+/* Class = "UILabel"; text = "點一下星星來評分"; ObjectID = "uPk-8s-ca1"; */
+"uPk-8s-ca1.text" = "點一下星星來評分";
+
+/* Class = "UILabel"; text = "點一下星星來評分"; ObjectID = "QU4-Zo-auW"; */
+"QU4-Zo-auW.text" = "點一下星星來評分";
+
+/* Class = "UIButton"; normalTitle = "預約叫車"; ObjectID = "ucD-oq-H3t"; */
+"ucD-oq-H3t.normalTitle" = "預約叫車";
+
+/* Class = "UILabel"; text = "Bus_Number"; ObjectID = "ujj-SR-mXT"; */
+"ujj-SR-mXT.text" = "Bus_Number";
+
+/* Class = "UILabel"; text = "成員六"; ObjectID = "vEW-eJ-Lvv"; */
+"vEW-eJ-Lvv.text" = "成員六";
+
+/* Class = "UIButton"; normalTitle = "取此此訂單"; ObjectID = "gBH-EC-a84"; */
+"gBH-EC-a84.normalTitle" = "取此此訂單";
+
+/* Class = "UILabel"; text = "Car_Number"; ObjectID = "wLb-vJ-piv"; */
+"wLb-vJ-piv.text" = "Car_Number";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "x9X-OQ-EbP"; */
+"x9X-OQ-EbP.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "xjD-Pj-R98"; */
+"xjD-Pj-R98.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "登出"; ObjectID = "y2X-ja-3cE"; */
+"y2X-ja-3cE.normalTitle" = "登出";
+
+/* Class = "UILabel"; text = "請聯絡以下電話 通知我們！！"; ObjectID = "zAg-8e-jA7"; */
+"zAg-8e-jA7.text" = "請聯絡以下電話 通知我們！！";
+
+/* Class = "UITabBarItem"; title = "歷史紀錄"; ObjectID = "zXi-Oi-5a7"; */
+"zXi-Oi-5a7.title" = "我的預約";
+
+/* Class = "UINavigationItem"; title = "此次搭乘評比"; ObjectID = "tUl-jN-9hc"; */
+"tUl-jN-9hc.title" = "此次搭乘評比";
+
+/* Class = "UILabel"; text = "TCAR 服務選擇"; ObjectID = "5iW-nN-ujp"; */
+"5iW-nN-ujp.text" = "TCAR 服務選擇";
+
+/* Class = "UILabel"; text = "司機 服務選擇"; ObjectID = "7Jl-oX-bbV"; */
+"7Jl-oX-bbV.text" = "司機 服務選擇";
+
+/* Class = "UILabel"; text = "請耐心等候司機 ..."; ObjectID = "y8S-ew-K9k"; */
+"y8S-ew-K9k.text" = "請耐心等候司機 ...";
+
+/* Class = "UINavigationItem"; title = "即時叫車"; ObjectID = "gGg-Wi-dZS"; */
+"gGg-Wi-dZS.title" = "即時叫車";

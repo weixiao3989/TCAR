@@ -1,0 +1,399 @@
+/* 
+  Localizable.strings
+  TCAR
+
+  Created by Chris on 2017/12/8.
+  Copyright © 2017年 MUST. All rights reserved.
+*/
+
+// MARK : Localized - English.
+
+"PutAccount" = "Please Enter your Acount...";
+
+"PutPassword" = "Please Enter your Password...";
+
+/* ------------------------------------------------------------------- */
+
+/* Register View Text */
+
+"Reg_account" = "Account:";
+
+"Reg_password" = "Password:";
+
+"Reg_name" = "Name:";
+
+"Reg_vef" = "Verification:";
+
+"Reg_phone" = "Your Phone Number:";
+
+"Reg_suc_title" = "Congratulations";
+
+"Reg_suc_message" = "Let's start TCAR";
+
+"Reg_fail_title" = "Register Fail";
+
+/* ------------------------------------------------------------------- */
+
+/* Menu View Text */
+
+"MV_Mister" = "mister";
+
+"MV_Lady" = "lady";
+
+"MV_Title_Fail" = "Not Login Please restart";
+
+"MV_LS_NotSetting" = "Location Service is not set correctly";
+
+"MV_GotoSetting_LS" = "Settting";
+
+"MV_Back" = "Back";
+
+/* ------------------------------------------------------------------- */
+
+/* Passenger Real Time Call Car View Text */
+
+"PRTCV_Select" = "Select:";
+
+"PRTCV_Navigation_Title" = "Real Time Call Car";
+
+"PRTCV_Start_Location" = "Strart Location";
+
+"PRTCV_Destination_Location" = "Destination Location";
+
+"PRTCV_CallCar_Fail" = "Real Time Call Car Fail";
+
+"PRTCV_Member" = " people";
+
+/* ------------------------------------------------------------------- */
+
+/* Driver Real Time Call Car View Text */
+
+"DRTCV_Order_List" = "Real Time Call Car List";
+
+"DRTCV_Not_Have_NOW_Order_Title" = "Currently no car orders";
+
+"DRTCV_Not_Have_NOW_Order_Message" = "\t Please wait and remember to refresh";
+
+"DRTCV_DialogTxt_StartLocation" = "Start: ";
+
+"DRTCV_DialogTxt_Destination" = "End: ";
+
+"DRTCV_DialogTxt_Person" = "Person: ";
+
+"DRTCV_DialogTxt_BigBag" = "BigBag: ";
+
+"DRTCV_DialogTxt_SmallBag" = "SmallBag: ";
+
+"DRTCV_DialogTxt_Note" = "Note: ";
+
+"DRTCV_Check_Passenger_Rate" = "Check Passenger Rate";
+
+"DRTCV_Accept_Order" = "Accept this Order";
+
+"DRTCV_Refresh_Title" = "Updating...";
+
+"DPRTCV_Driver_Location" = "Driver";
+
+"DPRTCV_Passenger_Location" = "Passenger";
+
+"DRTCV_Destination_Location" = "Destination";
+
+/* ------------------------------------------------------------------- */
+
+/* Passenger RTCS View Text */
+
+"PRTCS_GetAvatarFail" = "Get Avatar Failed , Because the Driver has not uploaded photos...";
+
+"PRTCS_Thank" = "Thank you for taking this ride";
+
+"PRTCS_AskRate" = "If you can, Please to help Driver score it!";
+
+"PRTCS_GoRate" = "Go to Rating";
+
+"PRTCS_NoRate" = "Next Time";
+
+"PRTCS_Title_NotGetAvatar" = "Can't Get Photo";
+
+"PRTCS_Title_CalltheDriver" = "Call the driver";
+
+/* ------------------------------------------------------------------- */
+
+/* Driver RTCS View Text */
+
+"DRTCS_Status_Title_Ready" = "Preparing...";
+
+"DRTCS_Status_Title_Passenger" = "Go to the passenger...";
+
+"DRTCS_Status_Title_Doing" = "Go to the destination...";
+
+"DRTCS_Button_Title_Passenger" = "Take a passenger";
+
+"DRTCS_Button_Title_Finish" = "Finish";
+
+"DRTCS_CancelOrder_Title" = "Cancel Order";
+
+"DRTCS_CancelOrder_Message" = "Please enter the reason for canceling this order";
+
+"DRTCS_CancelOrder_Placeholder" = "Reason:";
+
+"DRTCS_CancelOrder_Send" = "Send";
+
+"DRTCS_Thank" = "Thank you for taking this ride";
+
+"DRTCS_AskRate" = "If you can, Please to help Passenger score it!";
+
+"DRTCS_GoRate" = "Go to Rating";
+
+"DRTCS_NoRate" = "Next Time";
+
+/* ------------------------------------------------------------------- */
+
+/* Show Driver Evaluation View Text */
+
+"SDEV_Navigation_Title" = "Driver Appraisal";
+
+"SDEV_Score" = "Score：";
+
+"SDEV_Delivery_Date" = "Date：";
+
+"SDEV_GetScore" = "Get score is :";
+
+"SDEV_Rate" = "Passenger Give the evaluation :";
+
+"SDEV_AlertView_NoRate_Title" = "The drvier did not rate";
+
+"SDEV_AlertView_NoRate_Content" = "Come to the driver score it!";
+
+/* ------------------------------------------------------------------- */
+
+/* Show Passenger Evaluation View Text */
+
+"SPEV_Navigation_Title" = "Passenger Appraisal";
+
+"SPEV_Score" = "Score：";
+
+"SPEV_Delivery_Date" = "Date：";
+
+"SPEV_GetScore" = "Get score is :";
+
+"SPEV_Rate" = "Driver Give the evaluation :";
+
+"SPEV_AlertView_NoRate_Title" = "The passenger did not rate";
+
+"SPEV_AlertView_NoRate_Content" = "Come to the passenger score it!";
+
+/* ------------------------------------------------------------------- */
+
+/* Wait Driver View Text */
+
+"WDVC_Tips_Label" = "Tips: You can leave this App \n We will notify you !!";
+
+"WDVC_Cancel_Order_Title" = "This order is cancel";
+
+"WDVC_CancelOrder_Message" = "Please enter the reason for canceling this order";
+
+"WDVC_CancelOrder_Placeholder" = "Reason:";
+
+"WDVC_CancelOrder_Send" = "Send";
+
+/* ------------------------------------------------------------------- */
+
+/* Passenger About Me Text */
+
+"PAMV_NoRate_Score_Title" = "No Score";
+
+"PAMV_NoRate_Level_Title" = "No Level";
+
+"PAMV_NoRate_Evaluation_Title" = "0";
+
+"PAMV_NoRate_Exp_Title" = "No ratings, Come on!";
+
+"PAMV_NoHistory_Title" = "No history, Come and take it!";
+
+"PAMV_NoHistory_DialogTxt_Title" = "No any history";
+
+"PAMV_NoHistory_DialogTxt_Message" = "You don't have any records, quickly take a ride on the best quality taxi service in Miaoli!";
+
+"PAMV_Class_CopperII" = "Copper II";
+
+"PAMV_Class_CopperI" = "Copper I";
+
+"PAMV_Class_SilverII" = "Silver II";
+
+"PAMV_Class_SilverI" = "Silver I";
+
+"PAMV_Class_GoldII" = "Gold II";
+
+"PAMV_Class_GoldI" = "Gold I";
+
+"PAMV_Class_PlatinumII" = "Platinum II";
+
+"PAMV_Class_PlatinumI" = "Platinum I";
+
+"PAMV_Class_Diamond" = "Diamond passenger";
+
+"PAMV_Class_Monarch" = "Master passenger";
+
+"PAMV_Class_Elite" = "★Elite passenger☆";
+
+"PAMV_Gap_Title" = "Still worse ";
+
+"PAMV_EXP_MAX_Title" = "You are MAX level member!";
+
+"PAMV_History_Cell_Title" = "Ride the date: ";
+
+"PAMV_History_DialogTxt_Title" = "Service Type: ";
+
+"PAMV_History_DialogTxt_RTCC" = "Real-Time Call Car";
+
+"PAMV_History_DialogTxt_RSCC" = "Reservation Call Car";
+
+"PAMV_History_DialogTxt_TCCC" = "Travel Call Car";
+
+"PAMV_History_DialogTxt_PickupTime" = "Start Time: ";
+
+"PAMV_History_DialogTxt_UpdatedTime" = "End Time: ";
+
+"PAMV_History_DialogTxt_StartLocation" = "Start Location: ";
+
+"PAMV_History_DialogTxt_Destination" = "Destination: ";
+
+"PAMV_History_DialogTxt_Person" = "Person: ";
+
+"PAMV_History_DialogTxt_Score" = "Score: ";
+
+"PAMV_History_DialogTxt_Evaluation" = "Evaluation: ";
+
+"PAMV_History_DialogTxt_NoScore" = "There are no score for this ride";
+
+"PAMV_History_DialogTxt_NoNote" = "There are no note for this ride";
+
+/* ------------------------------------------------------------------- */
+
+/* Driver About Me Text */
+
+"DAMV_NoRate_Score_Title" = "No Score";
+
+"DAMV_NoRate_Level_Title" = "No Level";
+
+"DAMV_NoRate_Evaluation_Title" = "0";
+
+"DAMV_NoRate_Exp_Title" = "No ratings, Come on!";
+
+"DAMV_NoHistory_Title" = "No history, come to work now!";
+
+"DAMV_NoHistory_DialogTxt_Title" = "No any history";
+
+"DAMV_NoHistory_DialogTxt_Message" = "You do not have any records, hurry up and become the best driver!";
+
+"DAMV_Class_CopperII" = "Copper II";
+
+"DAMV_Class_CopperI" = "Copper I";
+
+"DAMV_Class_SilverII" = "Silver II";
+
+"DAMV_Class_SilverI" = "Silver I";
+
+"DAMV_Class_GoldII" = "Gold II";
+
+"DAMV_Class_GoldI" = "Gold I";
+
+"DAMV_Class_PlatinumII" = "Platinum II";
+
+"DAMV_Class_PlatinumI" = "Platinum I";
+
+"DAMV_Class_Diamond" = "Diamond driver";
+
+"DAMV_Class_Monarch" = "Master driver";
+
+"DAMV_Class_Elite" = "★Elite driver☆";
+
+"DAMV_Gap_Title" = "Still worse ";
+
+"DAMV_EXP_MAX_Title" = "You are MAX level driver!";
+
+"DAMV_History_Cell_Title" = "Delivery date: ";
+
+"DAMV_History_DialogTxt_Title" = "Service Type: ";
+
+"DAMV_History_DialogTxt_RTCC" = "Real-Time Call Car";
+
+"DAMV_History_DialogTxt_RSCC" = "Reservation Call Car";
+
+"DAMV_History_DialogTxt_TCCC" = "Travel Call Car";
+
+"DAMV_History_DialogTxt_PickupTime" = "Start Time: ";
+
+"DAMV_History_DialogTxt_UpdatedTime" = "End Time: ";
+
+"DAMV_History_DialogTxt_StartLocation" = "Start Location: ";
+
+"DAMV_History_DialogTxt_Destination" = "Destination: ";
+
+"DAMV_History_DialogTxt_Person" = "Person: ";
+
+"DAMV_History_DialogTxt_Score" = "Score: ";
+
+"DAMV_History_DialogTxt_Evaluation" = "Evaluation: ";
+
+"DAMV_History_DialogTxt_NoScore" = "There are no score for this ride";
+
+"DAMV_History_DialogTxt_NoNote" = "There are no note for this ride";
+
+/* ------------------------------------------------------------------- */
+
+/* Alert View Text */
+
+"LoginSF" = "Login Successful";
+
+"LogoutSF" = "Logout Successful";
+
+"Welcome" = "Weclome";
+
+"OK" = "OK";
+
+"LoginFail" = "Login Fail";
+
+"LogoutFail" = "Logout Fail";
+
+"Cancel" = "Cancel";
+
+"Title_Fail" = "Operation Failed";
+
+"Title_Incomplete" = "Incomplete information";
+
+"Title_NoNetwork" = "Not Network Service";
+
+"NoNetwork" = "Not connection to network...";
+
+"AccontPasswdNeedCorrect" = "Account required to fill in complete!";
+
+"AllFieldNeedCorrect" = "All fields must be completed!";
+
+"PhoneOnlyNumber" = "Phone numbers only accept numbers ...";
+
+"VeryThanksRate" = "Thank you for your comment！！";
+
+"Done" = "Done";
+
+"Error" = "Error";
+
+"Check_LS" = "Please confirm the location system is normal ...";
+
+"LS_Fail" = "Signal is poor, Location can not be completed";
+
+"Enter_SL" = "Please enter the your Start Location";
+
+"Upload_Photo" = "Upload Photo";
+
+"Select_Upload_Photo" = "Please select the picture to upload";
+
+"Photo_Library" = "Photo Library";
+
+"LS_isDisable" = "Location Service is not turn on";
+
+"GoSetting_LS" = "Please go to the settings to open the Location system!";
+
+"Unknow_Error" = "Unknown Error";
+
+"Cannot_Access_PhotoLibrary" = "Can't Access PhotoLibrary";

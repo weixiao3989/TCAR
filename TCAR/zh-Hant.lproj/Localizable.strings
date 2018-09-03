@@ -1,0 +1,399 @@
+/* 
+  Localizable.strings
+  TCAR
+
+  Created by Chris on 2017/12/8.
+  Copyright © 2017年 MUST. All rights reserved.
+*/
+
+// MARK : Localized - Traditional.
+
+"PutAccount" = "請輸入您的帳號...";
+
+"PutPassword" = "請輸入您的密碼...";
+
+/* ------------------------------------------------------------------- */
+
+/* Register View Text */
+
+"Reg_account" = "帳號:";
+
+"Reg_password" = "密碼:";
+
+"Reg_name" = "姓名:";
+
+"Reg_vef" = "驗證碼:";
+
+"Reg_phone" = "您的電話:";
+
+"Reg_suc_title" = "恭喜您";
+
+"Reg_suc_message" = "開始使用TCAR";
+
+"Reg_fail_title" = "註冊失敗";
+
+/* ------------------------------------------------------------------- */
+
+/* Menu View Text */
+
+"MV_Mister" = "先生";
+
+"MV_Lady" = "小姐";
+
+"MV_Title_Fail" = "未登入 請重試一次";
+
+"MV_LS_NotSetting" = "定位服務並未設置正確, 請檢查！";
+
+"MV_GotoSetting_LS" = "前往設定";
+
+"MV_Back" = "返回";
+
+/* ------------------------------------------------------------------- */
+
+/* Passenger Real Time Call Car View Text */
+
+"PRTCV_Select" = "請選擇:";
+
+"PRTCV_Navigation_Title" = "即時叫車";
+
+"PRTCV_Start_Location" = "上車地點";
+
+"PRTCV_Destination_Location" = "目的地點";
+
+"PRTCV_CallCar_Fail" = "即時叫車失敗";
+
+"PRTCV_Member" = " 人";
+
+/* ------------------------------------------------------------------- */
+
+/* Driver Real Time Call Car View Text */
+
+"DRTCV_Order_List" = "即時叫車列表";
+
+"DRTCV_Not_Have_NOW_Order_Title" = "目前沒有叫車訂單";
+
+"DRTCV_Not_Have_NOW_Order_Message" = "請稍等一下... 並記得往下滑將列表刷新";
+
+"DRTCV_DialogTxt_StartLocation" = "上車位置: ";
+
+"DRTCV_DialogTxt_Destination" = "下車位置: ";
+
+"DRTCV_DialogTxt_Person" = "人數: ";
+
+"DRTCV_DialogTxt_BigBag" = "大包包數量: ";
+
+"DRTCV_DialogTxt_SmallBag" = "小包包數量: ";
+
+"DRTCV_DialogTxt_Note" = "備註: ";
+
+"DRTCV_Check_Passenger_Rate" = "前往查看乘客搭乘紀錄";
+
+"DRTCV_Accept_Order" = "接受此訂單";
+
+"DRTCV_Refresh_Title" = "更新中, 請稍候...";
+
+"DPRTCV_Driver_Location" = "司機位置";
+
+"DPRTCV_Passenger_Location" = "乘客位置";
+
+"DRTCV_Destination_Location" = "目的地點";
+
+/* ------------------------------------------------------------------- */
+
+/* Passenger RTCS View Text */
+
+"PRTCS_GetAvatarFail" = "取得大頭貼失敗, 請確認對方已上傳照片...";
+
+"PRTCS_Thank" = "非常感謝您此次搭乘";
+
+"PRTCS_AskRate" = "如果可以,再麻煩幫司機評分一下唄！";
+
+"PRTCS_GoRate" = "前往評分";
+
+"PRTCS_NoRate" = "下次在評";
+
+"PRTCS_Title_NotGetAvatar" = "無法取得照片";
+
+"PRTCS_Title_CalltheDriver" = "打給司機";
+
+/* ------------------------------------------------------------------- */
+
+/* Driver RTCS View Text */
+
+"DRTCS_Status_Title_Ready" = "準備中...";
+
+"DRTCS_Status_Title_Passenger" = "前往載客中...";
+
+"DRTCS_Status_Title_Doing" = "前往乘客目的地...";
+
+"DRTCS_Button_Title_Passenger" = "接到客人, 改往目的地";
+
+"DRTCS_Button_Title_Finish" = "客人到站, 完成任務";
+
+"DRTCS_CancelOrder_Title" = "取消訂單";
+
+"DRTCS_CancelOrder_Message" = "請填寫取消此訂單原因";
+
+"DRTCS_CancelOrder_Placeholder" = "原因:";
+
+"DRTCS_CancelOrder_Send" = "發送";
+
+"DRTCS_Thank" = "非常感謝您此次乘送";
+
+"DRTCS_AskRate" = "如果可以,再麻煩幫乘客評分一下唄！";
+
+"DRTCS_GoRate" = "前往評分";
+
+"DRTCS_NoRate" = "下次在評";
+
+/* ------------------------------------------------------------------- */
+
+/* Show Driver Evaluation View Text */
+
+"SDEV_Navigation_Title" = "司機評比";
+
+"SDEV_Score" = "分數：";
+
+"SDEV_Delivery_Date" = "乘送日期：";
+
+"SDEV_GetScore" = "獲得分數為 :";
+
+"SDEV_Rate" = "客人給予的評語 : ";
+
+"SDEV_AlertView_NoRate_Title" = "此位司機還並未有任何評價";
+
+"SDEV_AlertView_NoRate_Content" = "快來幫這位司機評分一下唄!";
+
+/* ------------------------------------------------------------------- */
+
+/* Show Passenger Evaluation View Text */
+
+"SPEV_Navigation_Title" = "乘客評比";
+
+"SPEV_Score" = "分數：";
+
+"SPEV_Delivery_Date" = "搭乘日期：";
+
+"SPEV_GetScore" = "獲得分數為 :";
+
+"SPEV_Rate" = "司機給予的評語 : ";
+
+"SPEV_AlertView_NoRate_Title" = "此位乘客還並未有任何評價";
+
+"SPEV_AlertView_NoRate_Content" = "快來幫這位乘客評分一下唄!";
+
+/* ------------------------------------------------------------------- */
+
+/* Wait Driver View Text */
+
+"WDVC_Tips_Label" = "Tips: 現在您可以離開APP \n 有司機回覆時, 我們會再通知您 !!";
+
+"WDVC_Cancel_Order_Title" = "訂單已取消";
+
+"WDVC_CancelOrder_Message" = "請填寫取消此訂單原因";
+
+"WDVC_CancelOrder_Placeholder" = "原因:";
+
+"WDVC_CancelOrder_Send" = "發送";
+
+/* ------------------------------------------------------------------- */
+
+/* Passenger About Me Text */
+
+"PAMV_NoRate_Score_Title" = "無分數";
+
+"PAMV_NoRate_Level_Title" = "無等級";
+
+"PAMV_NoRate_Evaluation_Title" = "0";
+
+"PAMV_NoRate_Exp_Title" = "未有任何評分, 加油!";
+
+"PAMV_NoHistory_Title" = "未有任何歷史紀錄, 快來搭乘吧!";
+
+"PAMV_NoHistory_DialogTxt_Title" = "無任何歷史紀錄";
+
+"PAMV_NoHistory_DialogTxt_Message" = "目前您並未有任何紀錄, 趕緊來試搭乘一下苗栗最優質的計程車服務吧!";
+
+"PAMV_Class_CopperII" = "銅階II";
+
+"PAMV_Class_CopperI" = "銅階I";
+
+"PAMV_Class_SilverII" = "銀階II";
+
+"PAMV_Class_SilverI" = "銀階I";
+
+"PAMV_Class_GoldII" = "金階II";
+
+"PAMV_Class_GoldI" = "金階I";
+
+"PAMV_Class_PlatinumII" = "白金階II";
+
+"PAMV_Class_PlatinumI" = "白金階I";
+
+"PAMV_Class_Diamond" = "鑽石階級";
+
+"PAMV_Class_Monarch" = "尊爵階級";
+
+"PAMV_Class_Elite" = "★至尊會員☆";
+
+"PAMV_Gap_Title" = "還差 ";
+
+"PAMV_EXP_MAX_Title" = "恭喜您, 您已是最高級別會員!";
+
+"PAMV_History_Cell_Title" = "搭乘日期: ";
+
+"PAMV_History_DialogTxt_Title" = "服務類型: ";
+
+"PAMV_History_DialogTxt_RTCC" = "即時叫車";
+
+"PAMV_History_DialogTxt_RSCC" = "預約叫車";
+
+"PAMV_History_DialogTxt_TCCC" = "旅遊包車";
+
+"PAMV_History_DialogTxt_PickupTime" = "開始時間: ";
+
+"PAMV_History_DialogTxt_UpdatedTime" = "結束時間: ";
+
+"PAMV_History_DialogTxt_StartLocation" = "上車地點: ";
+
+"PAMV_History_DialogTxt_Destination" = "下車地點: ";
+
+"PAMV_History_DialogTxt_Person" = "人數: ";
+
+"PAMV_History_DialogTxt_Score" = "獲得分數: ";
+
+"PAMV_History_DialogTxt_Evaluation" = "獲得評價: ";
+
+"PAMV_History_DialogTxt_NoScore" = "此次搭乘無分數";
+
+"PAMV_History_DialogTxt_NoNote" = "此次搭乘無評價";
+
+/* ------------------------------------------------------------------- */
+
+/* Driver About Me Text */
+
+"DAMV_NoRate_Score_Title" = "無分數";
+
+"DAMV_NoRate_Level_Title" = "無等級";
+
+"DAMV_NoRate_Evaluation_Title" = "0";
+
+"DAMV_NoRate_Exp_Title" = "未有任何評分, 加油!";
+
+"DAMV_NoHistory_Title" = "未有任何歷史紀錄, 快來上工吧!";
+
+"DAMV_NoHistory_DialogTxt_Title" = "無任何歷史紀錄";
+
+"DAMV_NoHistory_DialogTxt_Message" = "目前您並未有任何紀錄, 趕緊來上工並成為最優質司機吧!";
+
+"DAMV_Class_CopperII" = "銅階II";
+
+"DAMV_Class_CopperI" = "銅階I";
+
+"DAMV_Class_SilverII" = "銀階II";
+
+"DAMV_Class_SilverI" = "銀階I";
+
+"DAMV_Class_GoldII" = "金階II";
+
+"DAMV_Class_GoldI" = "金階I";
+
+"DAMV_Class_PlatinumII" = "白金階II";
+
+"DAMV_Class_PlatinumI" = "白金階I";
+
+"DAMV_Class_Diamond" = "鑽石級司機";
+
+"DAMV_Class_Monarch" = "大師級司機";
+
+"DAMV_Class_Elite" = "★菁英司機☆";
+
+"DAMV_Gap_Title" = "還差 ";
+
+"DAMV_EXP_MAX_Title" = "恭喜您, 您已是最高級別司機!";
+
+"DAMV_History_Cell_Title" = "乘送日期: ";
+
+"DAMV_History_DialogTxt_Title" = "服務類型: ";
+
+"DAMV_History_DialogTxt_RTCC" = "即時叫車";
+
+"DAMV_History_DialogTxt_RSCC" = "預約叫車";
+
+"DAMV_History_DialogTxt_TCCC" = "旅遊包車";
+
+"DAMV_History_DialogTxt_PickupTime" = "開始時間: ";
+
+"DAMV_History_DialogTxt_UpdatedTime" = "結束時間: ";
+
+"DAMV_History_DialogTxt_StartLocation" = "上車地點: ";
+
+"DAMV_History_DialogTxt_Destination" = "下車地點: ";
+
+"DAMV_History_DialogTxt_Person" = "人數: ";
+
+"DAMV_History_DialogTxt_Score" = "獲得分數: ";
+
+"DAMV_History_DialogTxt_Evaluation" = "獲得評價: ";
+
+"DAMV_History_DialogTxt_NoScore" = "此次乘載無分數";
+
+"DAMV_History_DialogTxt_NoNote" = "此次乘載無評價";
+
+/* ------------------------------------------------------------------- */
+
+/* Alert View Text */
+
+"LoginSF" = "登入成功";
+
+"LogoutSF" = "登出成功";
+
+"Welcome" = "歡迎回來";
+
+"OK" = "好";
+
+"LoginFail" = "登入失敗";
+
+"LogoutFail" = "登出失敗";
+
+"Cancel" = "取消";
+
+"Title_Fail" = "操作失敗";
+
+"Title_Incomplete" = "資訊不完整";
+
+"Title_NoNetwork" = "無網路服務";
+
+"NoNetwork" = "目前無偵測到網路!\n 請確認連網正常後再試一次...";
+
+"AccontPasswdNeedCorrect" = "帳密需填寫完整!";
+
+"AllFieldNeedCorrect" = "所有欄位皆須填寫!";
+
+"PhoneOnlyNumber" = "電話號碼只接受數字...";
+
+"VeryThanksRate" = "非常感謝您的評論！！";
+
+"Done" = "完成";
+
+"Error" = "錯誤";
+
+"Check_LS" = "請確認定位系統正常...";
+
+"LS_Fail" = "訊號不佳,定位無法完成";
+
+"Enter_SL" = "請自行輸入上車地點...";
+
+"Upload_Photo" = "上傳圖片";
+
+"Select_Upload_Photo" = "請選擇要上傳的圖片";
+
+"Photo_Library" = "照片圖庫";
+
+"LS_isDisable" = "定位服務未開啟";
+
+"GoSetting_LS" = "請去設定裡開啟定位系統!";
+
+"Unknow_Error" = "未知錯誤";
+
+"Cannot_Access_PhotoLibrary" = "無法存取圖片庫";

@@ -1,0 +1,6 @@
+framework module Pods_TCAR {
+  umbrella header "Pods-TCAR-umbrella.h"
+
+  export *
+  module * { export * }
+}

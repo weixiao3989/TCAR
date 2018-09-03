@@ -1,0 +1,1344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F0101CA1FA024D600CCF88B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0101C91FA024D600CCF88B /* MapKit.framework */; };
+		1F0101D01FA0358200CCF88B /* reservation2Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0101CF1FA0358200CCF88B /* reservation2Cell.swift */; };
+		1F0101D21FA0359900CCF88B /* travel_chartered2Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0101D11FA0359900CCF88B /* travel_chartered2Cell.swift */; };
+		1FC759FC1F2D8FA800ADC4E0 /* Passenge_MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC759FB1F2D8FA800ADC4E0 /* Passenge_MenuVC.swift */; };
+		1FC759FE1F2D99B500ADC4E0 /* Driver_MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC759FD1F2D99B500ADC4E0 /* Driver_MenuVC.swift */; };
+		1FD73DE91F8E60F200D3232F /* reservationTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD73DE81F8E60F200D3232F /* reservationTVC.swift */; };
+		1FD73DEB1F8E611300D3232F /* travel_charteredTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD73DEA1F8E611300D3232F /* travel_charteredTVC.swift */; };
+		1FD73DEF1F8E76A500D3232F /* Passenger_aboutTBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD73DEE1F8E76A500D3232F /* Passenger_aboutTBC.swift */; };
+		1FD73DF11F8E773F00D3232F /* Passenger_infoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD73DF01F8E773F00D3232F /* Passenger_infoVC.swift */; };
+		1FD73DF31F8E780700D3232F /* Passenger_favouriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD73DF21F8E780700D3232F /* Passenger_favouriteVC.swift */; };
+		1FD73DF51F8E784800D3232F /* Passenger_historyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD73DF41F8E784800D3232F /* Passenger_historyVC.swift */; };
+		1FD73DF71F92EA6F00D3232F /* passengerNC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD73DF61F92EA6F00D3232F /* passengerNC.swift */; };
+		1FD73DF91F92FB0400D3232F /* driverNC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD73DF81F92FB0400D3232F /* driverNC.swift */; };
+		1FD73DFB1F92FBB200D3232F /* Driver_aboutTBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD73DFA1F92FBB200D3232F /* Driver_aboutTBC.swift */; };
+		1FD73DFF1F9301CD00D3232F /* reservation2TVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD73DFE1F9301CD00D3232F /* reservation2TVC.swift */; };
+		1FD73E011F93023500D3232F /* travel_chartered2TVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD73E001F93023500D3232F /* travel_chartered2TVC.swift */; };
+		1FD73E031F9302AB00D3232F /* Driver_infoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD73E021F9302AB00D3232F /* Driver_infoVC.swift */; };
+		1FD73E051F9302E800D3232F /* Driver_scheduleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD73E041F9302E800D3232F /* Driver_scheduleVC.swift */; };
+		1FD73E071F9310E800D3232F /* reservation_statusVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD73E061F9310E800D3232F /* reservation_statusVC.swift */; };
+		1FD73E0D1F99519000D3232F /* reservationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD73E0C1F99519000D3232F /* reservationCell.swift */; };
+		1FD73E0F1F9951CB00D3232F /* travel_charteredCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD73E0E1F9951CB00D3232F /* travel_charteredCell.swift */; };
+		3E07A8861FD665BC00FE32BA /* TCAR_RateScore_2-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E07A87B1FD665BB00FE32BA /* TCAR_RateScore_2-5.jpg */; };
+		3E07A8881FD665BC00FE32BA /* TCAR_RateScore_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E07A87D1FD665BB00FE32BA /* TCAR_RateScore_3.jpg */; };
+		3E07A8891FD665BC00FE32BA /* TCAR_RateScore_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E07A87E1FD665BB00FE32BA /* TCAR_RateScore_2.jpg */; };
+		3E07A88A1FD665BC00FE32BA /* TCAR_RateScore_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E07A87F1FD665BB00FE32BA /* TCAR_RateScore_1.jpg */; };
+		3E07A88B1FD665BC00FE32BA /* TCAR_RateScore_1-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E07A8801FD665BB00FE32BA /* TCAR_RateScore_1-5.jpg */; };
+		3E07A88C1FD665BC00FE32BA /* TCAR_RateScore_4-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E07A8811FD665BB00FE32BA /* TCAR_RateScore_4-5.jpg */; };
+		3E07A88D1FD665BC00FE32BA /* TCAR_RateScore_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E07A8821FD665BB00FE32BA /* TCAR_RateScore_5.jpg */; };
+		3E07A88E1FD665BC00FE32BA /* TCAR_RateScore_3-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E07A8831FD665BB00FE32BA /* TCAR_RateScore_3-5.jpg */; };
+		3E07A88F1FD665BC00FE32BA /* TCAR_RateScore_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E07A8841FD665BC00FE32BA /* TCAR_RateScore_4.jpg */; };
+		3E07A8901FD665BC00FE32BA /* TCAR_RateScore_0-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E07A8851FD665BC00FE32BA /* TCAR_RateScore_0-5.jpg */; };
+		3E07A8941FD671C000FE32BA /* TCAR_RateScore_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E07A8931FD671C000FE32BA /* TCAR_RateScore_0.jpg */; };
+		3E0AE2311F75F2D10030DCDF /* SigninVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0AE2301F75F2D10030DCDF /* SigninVC.swift */; };
+		3E0CACA5201B2E12007E8B5B /* Driver_historyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0CACA4201B2E12007E8B5B /* Driver_historyVC.swift */; };
+		3E2D3BCA201F0F3E00AF37FB /* No_Avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E2D3BC9201F0F3D00AF37FB /* No_Avatar.png */; };
+		3E2E1A5C1F1A04070033C0EF /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2E1A5B1F1A04070033C0EF /* RegisterVC.swift */; };
+		3E36B6411FFB84F100DBD171 /* Show_Passenger_EvaluationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E36B6401FFB84F100DBD171 /* Show_Passenger_EvaluationVC.swift */; };
+		3E36B6431FFB854000DBD171 /* Driver_RTCS_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E36B6421FFB854000DBD171 /* Driver_RTCS_VC.swift */; };
+		3E36B6451FFB857200DBD171 /* Driver_ScoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E36B6441FFB857200DBD171 /* Driver_ScoreVC.swift */; };
+		3E4082D01FA5892C00423089 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4082CF1FA5892C00423089 /* UserNotifications.framework */; };
+		3E41ECA01F1221F400DD2975 /* first_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E41EC9F1F1221F400DD2975 /* first_img.png */; };
+		3E41ECA51F122FF400DD2975 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E41ECA41F122FF400DD2975 /* MessageUI.framework */; };
+		3E45D5BE200E124300A91823 /* TCAR_API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E45D5BD200E124300A91823 /* TCAR_API.swift */; };
+		3E4DCF141FA7784E00D8BC16 /* RealTimeCallcarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4DCF131FA7784E00D8BC16 /* RealTimeCallcarVC.swift */; };
+		3E6A8E3120145F52000E4A95 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6A8E3020145F52000E4A95 /* AlertController.swift */; };
+		3E6EF7D61F7947BD00225D9D /* AboutusVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6EF7D51F7947BD00225D9D /* AboutusVC.swift */; };
+		3E70334F20132589001573A9 /* Network_Access.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E70334E20132589001573A9 /* Network_Access.swift */; };
+		3E706F261FB02DD80051ADBB /* Passenger_RTCS_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E706F221FB02DD70051ADBB /* Passenger_RTCS_VC.swift */; };
+		3E706F271FB02DD80051ADBB /* Passenger_ScoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E706F231FB02DD70051ADBB /* Passenger_ScoreVC.swift */; };
+		3E706F281FB02DD80051ADBB /* Show_Driver_EvaluationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E706F241FB02DD80051ADBB /* Show_Driver_EvaluationVC.swift */; };
+		3E706F291FB02DD80051ADBB /* Wait_DriverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E706F251FB02DD80051ADBB /* Wait_DriverVC.swift */; };
+		3E767AA31FEE422E00EE07E5 /* Animation_Point.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E767AA11FEE422E00EE07E5 /* Animation_Point.png */; };
+		3E767AA71FEE578200EE07E5 /* Animation_Taxi.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E767AA61FEE578200EE07E5 /* Animation_Taxi.png */; };
+		3E7A3C691F3EDE5300B26260 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7A3C681F3EDE5300B26260 /* Reachability.swift */; };
+		3E89804F1FF6642B00AC5285 /* Driver_RealTimeCallCarTBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E89804E1FF6642B00AC5285 /* Driver_RealTimeCallCarTBC.swift */; };
+		3E8980511FF68D7400AC5285 /* Driver_RealTimeCallCarTBCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8980501FF68D7400AC5285 /* Driver_RealTimeCallCarTBCCell.swift */; };
+		3EA9099E1FDAB17600C83CD9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3EA909A01FDAB17600C83CD9 /* Localizable.strings */; };
+		3EEA0DFA20188A3D001E9DB8 /* backgroundStar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EEA0DF820188A3C001E9DB8 /* backgroundStar@3x.png */; };
+		3EEA0DFB20188A3D001E9DB8 /* foregroundStar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EEA0DF920188A3D001E9DB8 /* foregroundStar@3x.png */; };
+		3EEA0DFE20188A72001E9DB8 /* JNStarRateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEA0DFD20188A72001E9DB8 /* JNStarRateView.swift */; };
+		3EF690F41F1220DF00F6EE86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF690F31F1220DF00F6EE86 /* AppDelegate.swift */; };
+		3EF690F61F1220DF00F6EE86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF690F51F1220DF00F6EE86 /* ViewController.swift */; };
+		3EF690F91F1220DF00F6EE86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF690F71F1220DF00F6EE86 /* Main.storyboard */; };
+		3EF690FC1F1220DF00F6EE86 /* TCAR.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3EF690FA1F1220DF00F6EE86 /* TCAR.xcdatamodeld */; };
+		3EF691011F1220DF00F6EE86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF690FF1F1220DF00F6EE86 /* LaunchScreen.storyboard */; };
+		3EF6910C1F1220DF00F6EE86 /* TCARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF6910B1F1220DF00F6EE86 /* TCARTests.swift */; };
+		3EF691171F1220DF00F6EE86 /* TCARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF691161F1220DF00F6EE86 /* TCARUITests.swift */; };
+		3EFFC5B61F23446400F9DFEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EFFC5B51F23446400F9DFEB /* Assets.xcassets */; };
+		4A73B068ED2C405A49D72316 /* Pods_TCARUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34320095751684DB8510B4B4 /* Pods_TCARUITests.framework */; };
+		D07F3201C3BD237B5CE5C1BC /* Pods_TCAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 501F4248ACD788269757C9E7 /* Pods_TCAR.framework */; };
+		F2825BCC10FC2A4C6BB64498 /* Pods_TCARTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE7E58B20AE3D2985C76652 /* Pods_TCARTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EF691081F1220DF00F6EE86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EF690E81F1220DF00F6EE86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EF690EF1F1220DF00F6EE86;
+			remoteInfo = TCAR;
+		};
+		3EF691131F1220DF00F6EE86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EF690E81F1220DF00F6EE86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EF690EF1F1220DF00F6EE86;
+			remoteInfo = TCAR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AA243B7C416C010BE16750F /* Pods-TCARTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCARTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TCARTests/Pods-TCARTests.release.xcconfig"; sourceTree = "<group>"; };
+		1F0101C91FA024D600CCF88B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1F0101CF1FA0358200CCF88B /* reservation2Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reservation2Cell.swift; sourceTree = "<group>"; };
+		1F0101D11FA0359900CCF88B /* travel_chartered2Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = travel_chartered2Cell.swift; sourceTree = "<group>"; };
+		1FC759FB1F2D8FA800ADC4E0 /* Passenge_MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Passenge_MenuVC.swift; sourceTree = "<group>"; };
+		1FC759FD1F2D99B500ADC4E0 /* Driver_MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Driver_MenuVC.swift; sourceTree = "<group>"; };
+		1FD73DE81F8E60F200D3232F /* reservationTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reservationTVC.swift; sourceTree = "<group>"; };
+		1FD73DEA1F8E611300D3232F /* travel_charteredTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = travel_charteredTVC.swift; sourceTree = "<group>"; };
+		1FD73DEE1F8E76A500D3232F /* Passenger_aboutTBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passenger_aboutTBC.swift; sourceTree = "<group>"; };
+		1FD73DF01F8E773F00D3232F /* Passenger_infoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passenger_infoVC.swift; sourceTree = "<group>"; };
+		1FD73DF21F8E780700D3232F /* Passenger_favouriteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passenger_favouriteVC.swift; sourceTree = "<group>"; };
+		1FD73DF41F8E784800D3232F /* Passenger_historyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passenger_historyVC.swift; sourceTree = "<group>"; };
+		1FD73DF61F92EA6F00D3232F /* passengerNC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passengerNC.swift; sourceTree = "<group>"; };
+		1FD73DF81F92FB0400D3232F /* driverNC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = driverNC.swift; sourceTree = "<group>"; };
+		1FD73DFA1F92FBB200D3232F /* Driver_aboutTBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver_aboutTBC.swift; sourceTree = "<group>"; };
+		1FD73DFE1F9301CD00D3232F /* reservation2TVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reservation2TVC.swift; sourceTree = "<group>"; };
+		1FD73E001F93023500D3232F /* travel_chartered2TVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = travel_chartered2TVC.swift; sourceTree = "<group>"; };
+		1FD73E021F9302AB00D3232F /* Driver_infoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver_infoVC.swift; sourceTree = "<group>"; };
+		1FD73E041F9302E800D3232F /* Driver_scheduleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver_scheduleVC.swift; sourceTree = "<group>"; };
+		1FD73E061F9310E800D3232F /* reservation_statusVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reservation_statusVC.swift; sourceTree = "<group>"; };
+		1FD73E0C1F99519000D3232F /* reservationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reservationCell.swift; sourceTree = "<group>"; };
+		1FD73E0E1F9951CB00D3232F /* travel_charteredCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = travel_charteredCell.swift; sourceTree = "<group>"; };
+		2C14192199A25D67E4F3398E /* Pods-TCARUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCARUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TCARUITests/Pods-TCARUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		34320095751684DB8510B4B4 /* Pods_TCARUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCARUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E07A87B1FD665BB00FE32BA /* TCAR_RateScore_2-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "TCAR_RateScore_2-5.jpg"; sourceTree = "<group>"; };
+		3E07A87D1FD665BB00FE32BA /* TCAR_RateScore_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TCAR_RateScore_3.jpg; sourceTree = "<group>"; };
+		3E07A87E1FD665BB00FE32BA /* TCAR_RateScore_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TCAR_RateScore_2.jpg; sourceTree = "<group>"; };
+		3E07A87F1FD665BB00FE32BA /* TCAR_RateScore_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TCAR_RateScore_1.jpg; sourceTree = "<group>"; };
+		3E07A8801FD665BB00FE32BA /* TCAR_RateScore_1-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "TCAR_RateScore_1-5.jpg"; sourceTree = "<group>"; };
+		3E07A8811FD665BB00FE32BA /* TCAR_RateScore_4-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "TCAR_RateScore_4-5.jpg"; sourceTree = "<group>"; };
+		3E07A8821FD665BB00FE32BA /* TCAR_RateScore_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TCAR_RateScore_5.jpg; sourceTree = "<group>"; };
+		3E07A8831FD665BB00FE32BA /* TCAR_RateScore_3-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "TCAR_RateScore_3-5.jpg"; sourceTree = "<group>"; };
+		3E07A8841FD665BC00FE32BA /* TCAR_RateScore_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TCAR_RateScore_4.jpg; sourceTree = "<group>"; };
+		3E07A8851FD665BC00FE32BA /* TCAR_RateScore_0-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "TCAR_RateScore_0-5.jpg"; sourceTree = "<group>"; };
+		3E07A8931FD671C000FE32BA /* TCAR_RateScore_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TCAR_RateScore_0.jpg; sourceTree = "<group>"; };
+		3E0AE2301F75F2D10030DCDF /* SigninVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SigninVC.swift; sourceTree = "<group>"; };
+		3E0CACA4201B2E12007E8B5B /* Driver_historyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver_historyVC.swift; sourceTree = "<group>"; };
+		3E2D3BC9201F0F3D00AF37FB /* No_Avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = No_Avatar.png; sourceTree = "<group>"; };
+		3E2E1A5B1F1A04070033C0EF /* RegisterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		3E36B6401FFB84F100DBD171 /* Show_Passenger_EvaluationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Show_Passenger_EvaluationVC.swift; sourceTree = "<group>"; };
+		3E36B6421FFB854000DBD171 /* Driver_RTCS_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver_RTCS_VC.swift; sourceTree = "<group>"; };
+		3E36B6441FFB857200DBD171 /* Driver_ScoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver_ScoreVC.swift; sourceTree = "<group>"; };
+		3E4082CF1FA5892C00423089 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		3E4082D11FA5894900423089 /* TCAR.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TCAR.entitlements; sourceTree = "<group>"; };
+		3E41EC9F1F1221F400DD2975 /* first_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first_img.png; sourceTree = "<group>"; };
+		3E41ECA41F122FF400DD2975 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		3E45D5BD200E124300A91823 /* TCAR_API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCAR_API.swift; sourceTree = "<group>"; };
+		3E4DCF131FA7784E00D8BC16 /* RealTimeCallcarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealTimeCallcarVC.swift; sourceTree = "<group>"; };
+		3E6A8E3020145F52000E4A95 /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		3E6EF7D51F7947BD00225D9D /* AboutusVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutusVC.swift; sourceTree = "<group>"; };
+		3E70334E20132589001573A9 /* Network_Access.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network_Access.swift; sourceTree = "<group>"; };
+		3E706F221FB02DD70051ADBB /* Passenger_RTCS_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Passenger_RTCS_VC.swift; sourceTree = "<group>"; };
+		3E706F231FB02DD70051ADBB /* Passenger_ScoreVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Passenger_ScoreVC.swift; sourceTree = "<group>"; };
+		3E706F241FB02DD80051ADBB /* Show_Driver_EvaluationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Show_Driver_EvaluationVC.swift; sourceTree = "<group>"; };
+		3E706F251FB02DD80051ADBB /* Wait_DriverVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wait_DriverVC.swift; sourceTree = "<group>"; };
+		3E767AA11FEE422E00EE07E5 /* Animation_Point.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Animation_Point.png; sourceTree = "<group>"; };
+		3E767AA61FEE578200EE07E5 /* Animation_Taxi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Animation_Taxi.png; sourceTree = "<group>"; };
+		3E7A3C681F3EDE5300B26260 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		3E89804E1FF6642B00AC5285 /* Driver_RealTimeCallCarTBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver_RealTimeCallCarTBC.swift; sourceTree = "<group>"; };
+		3E8980501FF68D7400AC5285 /* Driver_RealTimeCallCarTBCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver_RealTimeCallCarTBCCell.swift; sourceTree = "<group>"; };
+		3EA9099F1FDAB17600C83CD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3EA909A11FDAB17800C83CD9 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		3EEA0DF820188A3C001E9DB8 /* backgroundStar@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backgroundStar@3x.png"; sourceTree = "<group>"; };
+		3EEA0DF920188A3D001E9DB8 /* foregroundStar@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "foregroundStar@3x.png"; sourceTree = "<group>"; };
+		3EEA0DFD20188A72001E9DB8 /* JNStarRateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JNStarRateView.swift; sourceTree = "<group>"; };
+		3EF690F01F1220DF00F6EE86 /* TCAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF690F31F1220DF00F6EE86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3EF690F51F1220DF00F6EE86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3EF690F81F1220DF00F6EE86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3EF690FB1F1220DF00F6EE86 /* TCAR.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TCAR.xcdatamodel; sourceTree = "<group>"; };
+		3EF691001F1220DF00F6EE86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3EF691021F1220DF00F6EE86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EF691071F1220DF00F6EE86 /* TCARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCARTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF6910B1F1220DF00F6EE86 /* TCARTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCARTests.swift; sourceTree = "<group>"; };
+		3EF6910D1F1220DF00F6EE86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EF691121F1220DF00F6EE86 /* TCARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF691161F1220DF00F6EE86 /* TCARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCARUITests.swift; sourceTree = "<group>"; };
+		3EF691181F1220DF00F6EE86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EF8C5F21FDA7537001A75D0 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		3EF8C5F31FDA7537001A75D0 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		3EFFC5B51F23446400F9DFEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F6B26038C931440096076DA /* Pods-TCAR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCAR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TCAR/Pods-TCAR.debug.xcconfig"; sourceTree = "<group>"; };
+		501F4248ACD788269757C9E7 /* Pods_TCAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE7E58B20AE3D2985C76652 /* Pods_TCARTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCARTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7651D249B5C092E574177BD /* Pods-TCAR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCAR.release.xcconfig"; path = "Pods/Target Support Files/Pods-TCAR/Pods-TCAR.release.xcconfig"; sourceTree = "<group>"; };
+		EE5381818C2833E18BD5E749 /* Pods-TCARUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCARUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TCARUITests/Pods-TCARUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F423EFB47E648344C36CAE8F /* Pods-TCARTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCARTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TCARTests/Pods-TCARTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EF690ED1F1220DF00F6EE86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4082D01FA5892C00423089 /* UserNotifications.framework in Frameworks */,
+				3E41ECA51F122FF400DD2975 /* MessageUI.framework in Frameworks */,
+				1F0101CA1FA024D600CCF88B /* MapKit.framework in Frameworks */,
+				D07F3201C3BD237B5CE5C1BC /* Pods_TCAR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF691041F1220DF00F6EE86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2825BCC10FC2A4C6BB64498 /* Pods_TCARTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF6910F1F1220DF00F6EE86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A73B068ED2C405A49D72316 /* Pods_TCARUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CD974D94CD4017696AE94B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F6B26038C931440096076DA /* Pods-TCAR.debug.xcconfig */,
+				E7651D249B5C092E574177BD /* Pods-TCAR.release.xcconfig */,
+				F423EFB47E648344C36CAE8F /* Pods-TCARTests.debug.xcconfig */,
+				1AA243B7C416C010BE16750F /* Pods-TCARTests.release.xcconfig */,
+				2C14192199A25D67E4F3398E /* Pods-TCARUITests.debug.xcconfig */,
+				EE5381818C2833E18BD5E749 /* Pods-TCARUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3E0ABC701FFB933F001BC1F9 /* RealTimeCallCar */ = {
+			isa = PBXGroup;
+			children = (
+				3E4DCF131FA7784E00D8BC16 /* RealTimeCallcarVC.swift */,
+				3E706F251FB02DD80051ADBB /* Wait_DriverVC.swift */,
+				3E706F221FB02DD70051ADBB /* Passenger_RTCS_VC.swift */,
+				3E706F241FB02DD80051ADBB /* Show_Driver_EvaluationVC.swift */,
+				3E706F231FB02DD70051ADBB /* Passenger_ScoreVC.swift */,
+				1FD73DF61F92EA6F00D3232F /* passengerNC.swift */,
+			);
+			name = RealTimeCallCar;
+			sourceTree = "<group>";
+		};
+		3E0ABC711FFB934C001BC1F9 /* AboutPassenger */ = {
+			isa = PBXGroup;
+			children = (
+				1FD73DEE1F8E76A500D3232F /* Passenger_aboutTBC.swift */,
+				1FD73DF01F8E773F00D3232F /* Passenger_infoVC.swift */,
+				1FD73DF21F8E780700D3232F /* Passenger_favouriteVC.swift */,
+				1FD73DF41F8E784800D3232F /* Passenger_historyVC.swift */,
+			);
+			name = AboutPassenger;
+			sourceTree = "<group>";
+		};
+		3E0ABC721FFB93C8001BC1F9 /* Reservation */ = {
+			isa = PBXGroup;
+			children = (
+				1FD73DE81F8E60F200D3232F /* reservationTVC.swift */,
+				1FD73E0C1F99519000D3232F /* reservationCell.swift */,
+			);
+			name = Reservation;
+			sourceTree = "<group>";
+		};
+		3E0ABC731FFB93D6001BC1F9 /* Travel */ = {
+			isa = PBXGroup;
+			children = (
+				1FD73DEA1F8E611300D3232F /* travel_charteredTVC.swift */,
+				1FD73E0E1F9951CB00D3232F /* travel_charteredCell.swift */,
+			);
+			name = Travel;
+			sourceTree = "<group>";
+		};
+		3E0ABC741FFB946B001BC1F9 /* RealTimeCallCar */ = {
+			isa = PBXGroup;
+			children = (
+				3E89804E1FF6642B00AC5285 /* Driver_RealTimeCallCarTBC.swift */,
+				3E8980501FF68D7400AC5285 /* Driver_RealTimeCallCarTBCCell.swift */,
+				3E36B6421FFB854000DBD171 /* Driver_RTCS_VC.swift */,
+				3E36B6401FFB84F100DBD171 /* Show_Passenger_EvaluationVC.swift */,
+				3E36B6441FFB857200DBD171 /* Driver_ScoreVC.swift */,
+				1FD73DF81F92FB0400D3232F /* driverNC.swift */,
+			);
+			name = RealTimeCallCar;
+			sourceTree = "<group>";
+		};
+		3E0ABC751FFB9475001BC1F9 /* Reservation */ = {
+			isa = PBXGroup;
+			children = (
+				1FD73DFE1F9301CD00D3232F /* reservation2TVC.swift */,
+				1F0101CF1FA0358200CCF88B /* reservation2Cell.swift */,
+				1FD73E061F9310E800D3232F /* reservation_statusVC.swift */,
+			);
+			name = Reservation;
+			sourceTree = "<group>";
+		};
+		3E0ABC761FFB947D001BC1F9 /* Travel */ = {
+			isa = PBXGroup;
+			children = (
+				1FD73E001F93023500D3232F /* travel_chartered2TVC.swift */,
+				1F0101D11FA0359900CCF88B /* travel_chartered2Cell.swift */,
+			);
+			name = Travel;
+			sourceTree = "<group>";
+		};
+		3E0ABC771FFB9485001BC1F9 /* AboutDriver */ = {
+			isa = PBXGroup;
+			children = (
+				1FD73DFA1F92FBB200D3232F /* Driver_aboutTBC.swift */,
+				1FD73E021F9302AB00D3232F /* Driver_infoVC.swift */,
+				1FD73E041F9302E800D3232F /* Driver_scheduleVC.swift */,
+				3E0CACA4201B2E12007E8B5B /* Driver_historyVC.swift */,
+			);
+			name = AboutDriver;
+			sourceTree = "<group>";
+		};
+		3E41EC9E1F1221F400DD2975 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				3E2D3BC9201F0F3D00AF37FB /* No_Avatar.png */,
+				3EEA0DF820188A3C001E9DB8 /* backgroundStar@3x.png */,
+				3EEA0DF920188A3D001E9DB8 /* foregroundStar@3x.png */,
+				3E767AA61FEE578200EE07E5 /* Animation_Taxi.png */,
+				3E767AA11FEE422E00EE07E5 /* Animation_Point.png */,
+				3E07A8931FD671C000FE32BA /* TCAR_RateScore_0.jpg */,
+				3E07A8851FD665BC00FE32BA /* TCAR_RateScore_0-5.jpg */,
+				3E07A8801FD665BB00FE32BA /* TCAR_RateScore_1-5.jpg */,
+				3E07A87F1FD665BB00FE32BA /* TCAR_RateScore_1.jpg */,
+				3E07A87B1FD665BB00FE32BA /* TCAR_RateScore_2-5.jpg */,
+				3E07A87E1FD665BB00FE32BA /* TCAR_RateScore_2.jpg */,
+				3E07A8831FD665BB00FE32BA /* TCAR_RateScore_3-5.jpg */,
+				3E07A87D1FD665BB00FE32BA /* TCAR_RateScore_3.jpg */,
+				3E07A8811FD665BB00FE32BA /* TCAR_RateScore_4-5.jpg */,
+				3E07A8841FD665BC00FE32BA /* TCAR_RateScore_4.jpg */,
+				3E07A8821FD665BB00FE32BA /* TCAR_RateScore_5.jpg */,
+				3E41EC9F1F1221F400DD2975 /* first_img.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		3E41ECA31F122FF400DD2975 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E4082CF1FA5892C00423089 /* UserNotifications.framework */,
+				1F0101C91FA024D600CCF88B /* MapKit.framework */,
+				3E41ECA41F122FF400DD2975 /* MessageUI.framework */,
+				501F4248ACD788269757C9E7 /* Pods_TCAR.framework */,
+				5AE7E58B20AE3D2985C76652 /* Pods_TCARTests.framework */,
+				34320095751684DB8510B4B4 /* Pods_TCARUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E6EF7D41F79478300225D9D /* Aboutus */ = {
+			isa = PBXGroup;
+			children = (
+				3E6EF7D51F7947BD00225D9D /* AboutusVC.swift */,
+			);
+			name = Aboutus;
+			sourceTree = "<group>";
+		};
+		3E7A3C621F3ED47D00B26260 /* Singin */ = {
+			isa = PBXGroup;
+			children = (
+				3E0AE2301F75F2D10030DCDF /* SigninVC.swift */,
+			);
+			name = Singin;
+			sourceTree = "<group>";
+		};
+		3E7A3C631F3ED49100B26260 /* Singup */ = {
+			isa = PBXGroup;
+			children = (
+				3E2E1A5B1F1A04070033C0EF /* RegisterVC.swift */,
+			);
+			name = Singup;
+			sourceTree = "<group>";
+		};
+		3E7A3C641F3ED4AF00B26260 /* Driver */ = {
+			isa = PBXGroup;
+			children = (
+				1FC759FD1F2D99B500ADC4E0 /* Driver_MenuVC.swift */,
+				3E0ABC741FFB946B001BC1F9 /* RealTimeCallCar */,
+				3E0ABC751FFB9475001BC1F9 /* Reservation */,
+				3E0ABC761FFB947D001BC1F9 /* Travel */,
+				3E0ABC771FFB9485001BC1F9 /* AboutDriver */,
+			);
+			name = Driver;
+			sourceTree = "<group>";
+		};
+		3E7A3C661F3ED4D900B26260 /* Passenger */ = {
+			isa = PBXGroup;
+			children = (
+				1FC759FB1F2D8FA800ADC4E0 /* Passenge_MenuVC.swift */,
+				3E0ABC701FFB933F001BC1F9 /* RealTimeCallCar */,
+				3E0ABC721FFB93C8001BC1F9 /* Reservation */,
+				3E0ABC731FFB93D6001BC1F9 /* Travel */,
+				3E0ABC711FFB934C001BC1F9 /* AboutPassenger */,
+			);
+			name = Passenger;
+			sourceTree = "<group>";
+		};
+		3E7A3C671F3EDE2000B26260 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				3E7A3C681F3EDE5300B26260 /* Reachability.swift */,
+				3E45D5BD200E124300A91823 /* TCAR_API.swift */,
+				3E70334E20132589001573A9 /* Network_Access.swift */,
+				3E6A8E3020145F52000E4A95 /* AlertController.swift */,
+			);
+			name = Module;
+			sourceTree = "<group>";
+		};
+		3E7A3C6A1F3EDF2F00B26260 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				3E6EF7D41F79478300225D9D /* Aboutus */,
+				3E7A3C621F3ED47D00B26260 /* Singin */,
+				3E7A3C631F3ED49100B26260 /* Singup */,
+				3E7A3C661F3ED4D900B26260 /* Passenger */,
+				3E7A3C641F3ED4AF00B26260 /* Driver */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		3EEA0DFC20188A58001E9DB8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3EEA0DFD20188A72001E9DB8 /* JNStarRateView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3EF690E71F1220DF00F6EE86 = {
+			isa = PBXGroup;
+			children = (
+				3EF690F21F1220DF00F6EE86 /* TCAR */,
+				3EF6910A1F1220DF00F6EE86 /* TCARTests */,
+				3EF691151F1220DF00F6EE86 /* TCARUITests */,
+				3EF690F11F1220DF00F6EE86 /* Products */,
+				3E41ECA31F122FF400DD2975 /* Frameworks */,
+				1CD974D94CD4017696AE94B3 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		3EF690F11F1220DF00F6EE86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EF690F01F1220DF00F6EE86 /* TCAR.app */,
+				3EF691071F1220DF00F6EE86 /* TCARTests.xctest */,
+				3EF691121F1220DF00F6EE86 /* TCARUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EF690F21F1220DF00F6EE86 /* TCAR */ = {
+			isa = PBXGroup;
+			children = (
+				3E4082D11FA5894900423089 /* TCAR.entitlements */,
+				3E7A3C671F3EDE2000B26260 /* Module */,
+				3EEA0DFC20188A58001E9DB8 /* View */,
+				3E7A3C6A1F3EDF2F00B26260 /* Application */,
+				3EF690F31F1220DF00F6EE86 /* AppDelegate.swift */,
+				3EF690F51F1220DF00F6EE86 /* ViewController.swift */,
+				3EFFC5B51F23446400F9DFEB /* Assets.xcassets */,
+				3EF690F71F1220DF00F6EE86 /* Main.storyboard */,
+				3EF690FF1F1220DF00F6EE86 /* LaunchScreen.storyboard */,
+				3EF691021F1220DF00F6EE86 /* Info.plist */,
+				3EF690FA1F1220DF00F6EE86 /* TCAR.xcdatamodeld */,
+				3E41EC9E1F1221F400DD2975 /* image */,
+				3EA909A01FDAB17600C83CD9 /* Localizable.strings */,
+			);
+			path = TCAR;
+			sourceTree = "<group>";
+		};
+		3EF6910A1F1220DF00F6EE86 /* TCARTests */ = {
+			isa = PBXGroup;
+			children = (
+				3EF6910B1F1220DF00F6EE86 /* TCARTests.swift */,
+				3EF6910D1F1220DF00F6EE86 /* Info.plist */,
+			);
+			path = TCARTests;
+			sourceTree = "<group>";
+		};
+		3EF691151F1220DF00F6EE86 /* TCARUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3EF691161F1220DF00F6EE86 /* TCARUITests.swift */,
+				3EF691181F1220DF00F6EE86 /* Info.plist */,
+			);
+			path = TCARUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EF690EF1F1220DF00F6EE86 /* TCAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EF6911B1F1220DF00F6EE86 /* Build configuration list for PBXNativeTarget "TCAR" */;
+			buildPhases = (
+				AAF319BB300CC0FED8A2973F /* [CP] Check Pods Manifest.lock */,
+				3EF690EC1F1220DF00F6EE86 /* Sources */,
+				3EF690ED1F1220DF00F6EE86 /* Frameworks */,
+				3EF690EE1F1220DF00F6EE86 /* Resources */,
+				56B6820F57365FB43B5EA0E7 /* [CP] Embed Pods Frameworks */,
+				525553CE13D3C1A19B982668 /* [CP] Copy Pods Resources */,
+				3ED536E41FBDE2020046C55B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TCAR;
+			productName = TCAR;
+			productReference = 3EF690F01F1220DF00F6EE86 /* TCAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3EF691061F1220DF00F6EE86 /* TCARTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EF6911E1F1220DF00F6EE86 /* Build configuration list for PBXNativeTarget "TCARTests" */;
+			buildPhases = (
+				396F8E5479871AF5E2A852AC /* [CP] Check Pods Manifest.lock */,
+				3EF691031F1220DF00F6EE86 /* Sources */,
+				3EF691041F1220DF00F6EE86 /* Frameworks */,
+				3EF691051F1220DF00F6EE86 /* Resources */,
+				FEAA138B863E87FA0D89EEBC /* [CP] Embed Pods Frameworks */,
+				A9A8AAAA95B46E9BD7EA45BA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EF691091F1220DF00F6EE86 /* PBXTargetDependency */,
+			);
+			name = TCARTests;
+			productName = TCARTests;
+			productReference = 3EF691071F1220DF00F6EE86 /* TCARTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3EF691111F1220DF00F6EE86 /* TCARUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EF691211F1220DF00F6EE86 /* Build configuration list for PBXNativeTarget "TCARUITests" */;
+			buildPhases = (
+				F817EEF779D3A7D7DCC6562D /* [CP] Check Pods Manifest.lock */,
+				3EF6910E1F1220DF00F6EE86 /* Sources */,
+				3EF6910F1F1220DF00F6EE86 /* Frameworks */,
+				3EF691101F1220DF00F6EE86 /* Resources */,
+				FA661571AF38A101B7E983F2 /* [CP] Embed Pods Frameworks */,
+				64F4054A9FAA75FF07047608 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EF691141F1220DF00F6EE86 /* PBXTargetDependency */,
+			);
+			name = TCARUITests;
+			productName = TCARUITests;
+			productReference = 3EF691121F1220DF00F6EE86 /* TCARUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EF690E81F1220DF00F6EE86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = MUST;
+				TargetAttributes = {
+					3EF690EF1F1220DF00F6EE86 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6QL45YZ7MJ;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					3EF691061F1220DF00F6EE86 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6QL45YZ7MJ;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3EF690EF1F1220DF00F6EE86;
+					};
+					3EF691111F1220DF00F6EE86 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6QL45YZ7MJ;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3EF690EF1F1220DF00F6EE86;
+					};
+				};
+			};
+			buildConfigurationList = 3EF690EB1F1220DF00F6EE86 /* Build configuration list for PBXProject "TCAR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hant",
+			);
+			mainGroup = 3EF690E71F1220DF00F6EE86;
+			productRefGroup = 3EF690F11F1220DF00F6EE86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EF690EF1F1220DF00F6EE86 /* TCAR */,
+				3EF691061F1220DF00F6EE86 /* TCARTests */,
+				3EF691111F1220DF00F6EE86 /* TCARUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EF690EE1F1220DF00F6EE86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E41ECA01F1221F400DD2975 /* first_img.png in Resources */,
+				3E07A88E1FD665BC00FE32BA /* TCAR_RateScore_3-5.jpg in Resources */,
+				3E767AA71FEE578200EE07E5 /* Animation_Taxi.png in Resources */,
+				3E07A88F1FD665BC00FE32BA /* TCAR_RateScore_4.jpg in Resources */,
+				3E07A8901FD665BC00FE32BA /* TCAR_RateScore_0-5.jpg in Resources */,
+				3EF691011F1220DF00F6EE86 /* LaunchScreen.storyboard in Resources */,
+				3E07A8861FD665BC00FE32BA /* TCAR_RateScore_2-5.jpg in Resources */,
+				3EEA0DFA20188A3D001E9DB8 /* backgroundStar@3x.png in Resources */,
+				3E767AA31FEE422E00EE07E5 /* Animation_Point.png in Resources */,
+				3E07A88D1FD665BC00FE32BA /* TCAR_RateScore_5.jpg in Resources */,
+				3E07A8941FD671C000FE32BA /* TCAR_RateScore_0.jpg in Resources */,
+				3E2D3BCA201F0F3E00AF37FB /* No_Avatar.png in Resources */,
+				3E07A88A1FD665BC00FE32BA /* TCAR_RateScore_1.jpg in Resources */,
+				3EEA0DFB20188A3D001E9DB8 /* foregroundStar@3x.png in Resources */,
+				3EFFC5B61F23446400F9DFEB /* Assets.xcassets in Resources */,
+				3E07A8891FD665BC00FE32BA /* TCAR_RateScore_2.jpg in Resources */,
+				3EF690F91F1220DF00F6EE86 /* Main.storyboard in Resources */,
+				3E07A88C1FD665BC00FE32BA /* TCAR_RateScore_4-5.jpg in Resources */,
+				3EA9099E1FDAB17600C83CD9 /* Localizable.strings in Resources */,
+				3E07A88B1FD665BC00FE32BA /* TCAR_RateScore_1-5.jpg in Resources */,
+				3E07A8881FD665BC00FE32BA /* TCAR_RateScore_3.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF691051F1220DF00F6EE86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF691101F1220DF00F6EE86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		396F8E5479871AF5E2A852AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TCARTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3ED536E41FBDE2020046C55B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 743caddc006c6f70bae5cfe7a02e98111c20295f 2746730089b81c5c85117045b448e667695ccae80ba94967a3b46e242935e3b0";
+		};
+		525553CE13D3C1A19B982668 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TCAR/Pods-TCAR-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TCAR/Pods-TCAR-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56B6820F57365FB43B5EA0E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TCAR/Pods-TCAR-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/JSSAlertView/JSSAlertView.framework",
+				"${BUILT_PRODUCTS_DIR}/PCLBlurEffectAlert/PCLBlurEffectAlert.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSSAlertView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PCLBlurEffectAlert.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TCAR/Pods-TCAR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64F4054A9FAA75FF07047608 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TCARUITests/Pods-TCARUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9A8AAAA95B46E9BD7EA45BA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TCARTests/Pods-TCARTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAF319BB300CC0FED8A2973F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TCAR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F817EEF779D3A7D7DCC6562D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TCARUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA661571AF38A101B7E983F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TCARUITests/Pods-TCARUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEAA138B863E87FA0D89EEBC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TCARTests/Pods-TCARTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EF690EC1F1220DF00F6EE86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FD73DEB1F8E611300D3232F /* travel_charteredTVC.swift in Sources */,
+				3E70334F20132589001573A9 /* Network_Access.swift in Sources */,
+				3E706F281FB02DD80051ADBB /* Show_Driver_EvaluationVC.swift in Sources */,
+				3EF690F61F1220DF00F6EE86 /* ViewController.swift in Sources */,
+				1FD73DF91F92FB0400D3232F /* driverNC.swift in Sources */,
+				3E0AE2311F75F2D10030DCDF /* SigninVC.swift in Sources */,
+				3E4DCF141FA7784E00D8BC16 /* RealTimeCallcarVC.swift in Sources */,
+				3E36B6451FFB857200DBD171 /* Driver_ScoreVC.swift in Sources */,
+				3EEA0DFE20188A72001E9DB8 /* JNStarRateView.swift in Sources */,
+				3E706F271FB02DD80051ADBB /* Passenger_ScoreVC.swift in Sources */,
+				1F0101D21FA0359900CCF88B /* travel_chartered2Cell.swift in Sources */,
+				1FD73DFF1F9301CD00D3232F /* reservation2TVC.swift in Sources */,
+				3EF690FC1F1220DF00F6EE86 /* TCAR.xcdatamodeld in Sources */,
+				1FC759FE1F2D99B500ADC4E0 /* Driver_MenuVC.swift in Sources */,
+				3E6EF7D61F7947BD00225D9D /* AboutusVC.swift in Sources */,
+				3E36B6431FFB854000DBD171 /* Driver_RTCS_VC.swift in Sources */,
+				1FD73E0F1F9951CB00D3232F /* travel_charteredCell.swift in Sources */,
+				1FD73E0D1F99519000D3232F /* reservationCell.swift in Sources */,
+				1FD73E071F9310E800D3232F /* reservation_statusVC.swift in Sources */,
+				1FD73DFB1F92FBB200D3232F /* Driver_aboutTBC.swift in Sources */,
+				3EF690F41F1220DF00F6EE86 /* AppDelegate.swift in Sources */,
+				1FD73DF31F8E780700D3232F /* Passenger_favouriteVC.swift in Sources */,
+				1F0101D01FA0358200CCF88B /* reservation2Cell.swift in Sources */,
+				1FD73DF71F92EA6F00D3232F /* passengerNC.swift in Sources */,
+				3E706F261FB02DD80051ADBB /* Passenger_RTCS_VC.swift in Sources */,
+				3E45D5BE200E124300A91823 /* TCAR_API.swift in Sources */,
+				3E706F291FB02DD80051ADBB /* Wait_DriverVC.swift in Sources */,
+				3E89804F1FF6642B00AC5285 /* Driver_RealTimeCallCarTBC.swift in Sources */,
+				1FD73E031F9302AB00D3232F /* Driver_infoVC.swift in Sources */,
+				3E2E1A5C1F1A04070033C0EF /* RegisterVC.swift in Sources */,
+				1FD73DF11F8E773F00D3232F /* Passenger_infoVC.swift in Sources */,
+				1FD73DEF1F8E76A500D3232F /* Passenger_aboutTBC.swift in Sources */,
+				3E7A3C691F3EDE5300B26260 /* Reachability.swift in Sources */,
+				1FD73DE91F8E60F200D3232F /* reservationTVC.swift in Sources */,
+				1FC759FC1F2D8FA800ADC4E0 /* Passenge_MenuVC.swift in Sources */,
+				1FD73E051F9302E800D3232F /* Driver_scheduleVC.swift in Sources */,
+				3E8980511FF68D7400AC5285 /* Driver_RealTimeCallCarTBCCell.swift in Sources */,
+				3E0CACA5201B2E12007E8B5B /* Driver_historyVC.swift in Sources */,
+				3E6A8E3120145F52000E4A95 /* AlertController.swift in Sources */,
+				1FD73DF51F8E784800D3232F /* Passenger_historyVC.swift in Sources */,
+				3E36B6411FFB84F100DBD171 /* Show_Passenger_EvaluationVC.swift in Sources */,
+				1FD73E011F93023500D3232F /* travel_chartered2TVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF691031F1220DF00F6EE86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF6910C1F1220DF00F6EE86 /* TCARTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF6910E1F1220DF00F6EE86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF691171F1220DF00F6EE86 /* TCARUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EF691091F1220DF00F6EE86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EF690EF1F1220DF00F6EE86 /* TCAR */;
+			targetProxy = 3EF691081F1220DF00F6EE86 /* PBXContainerItemProxy */;
+		};
+		3EF691141F1220DF00F6EE86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EF690EF1F1220DF00F6EE86 /* TCAR */;
+			targetProxy = 3EF691131F1220DF00F6EE86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3EA909A01FDAB17600C83CD9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EA9099F1FDAB17600C83CD9 /* en */,
+				3EA909A11FDAB17800C83CD9 /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		3EF690F71F1220DF00F6EE86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EF690F81F1220DF00F6EE86 /* Base */,
+				3EF8C5F21FDA7537001A75D0 /* zh-Hant */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3EF690FF1F1220DF00F6EE86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EF691001F1220DF00F6EE86 /* Base */,
+				3EF8C5F31FDA7537001A75D0 /* zh-Hant */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EF691191F1220DF00F6EE86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: KUAN YU CHEN (ALG3H6RTGM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: KUAN YU CHEN (ALG3H6RTGM)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 6QL45YZ7MJ;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EF6911A1F1220DF00F6EE86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: KUAN YU CHEN (6QL45YZ7MJ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: KUAN YU CHEN (6QL45YZ7MJ)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 6QL45YZ7MJ;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EF6911C1F1220DF00F6EE86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F6B26038C931440096076DA /* Pods-TCAR.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TCAR/TCAR.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: KUAN YU CHEN (ALG3H6RTGM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QL45YZ7MJ;
+				INFOPLIST_FILE = TCAR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"AlamofireImage\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"Crashlytics\"",
+					"-framework",
+					"\"Fabric\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"GoogleMaps\"",
+					"-framework",
+					"\"GoogleMapsBase\"",
+					"-framework",
+					"\"GoogleMapsCore\"",
+					"-framework",
+					"\"GooglePlaces\"",
+					"-framework",
+					"\"IQKeyboardManagerSwift\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"JSSAlertView\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-w",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = must.TCAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Debug;
+		};
+		3EF6911D1F1220DF00F6EE86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7651D249B5C092E574177BD /* Pods-TCAR.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TCAR/TCAR.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: KUAN YU CHEN (6QL45YZ7MJ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QL45YZ7MJ;
+				INFOPLIST_FILE = TCAR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"AlamofireImage\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"Crashlytics\"",
+					"-framework",
+					"\"Fabric\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"GoogleMaps\"",
+					"-framework",
+					"\"GoogleMapsBase\"",
+					"-framework",
+					"\"GoogleMapsCore\"",
+					"-framework",
+					"\"GooglePlaces\"",
+					"-framework",
+					"\"IQKeyboardManagerSwift\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"JSSAlertView\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-w",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = must.TCAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Release;
+		};
+		3EF6911F1F1220DF00F6EE86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F423EFB47E648344C36CAE8F /* Pods-TCARTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6QL45YZ7MJ;
+				INFOPLIST_FILE = TCARTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = must.otc.TCARTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCAR.app/TCAR";
+			};
+			name = Debug;
+		};
+		3EF691201F1220DF00F6EE86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AA243B7C416C010BE16750F /* Pods-TCARTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6QL45YZ7MJ;
+				INFOPLIST_FILE = TCARTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = must.otc.TCARTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCAR.app/TCAR";
+			};
+			name = Release;
+		};
+		3EF691221F1220DF00F6EE86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C14192199A25D67E4F3398E /* Pods-TCARUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6QL45YZ7MJ;
+				INFOPLIST_FILE = TCARUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = must.otc.TCARUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = TCAR;
+			};
+			name = Debug;
+		};
+		3EF691231F1220DF00F6EE86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE5381818C2833E18BD5E749 /* Pods-TCARUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6QL45YZ7MJ;
+				INFOPLIST_FILE = TCARUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = must.otc.TCARUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = TCAR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EF690EB1F1220DF00F6EE86 /* Build configuration list for PBXProject "TCAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF691191F1220DF00F6EE86 /* Debug */,
+				3EF6911A1F1220DF00F6EE86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EF6911B1F1220DF00F6EE86 /* Build configuration list for PBXNativeTarget "TCAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF6911C1F1220DF00F6EE86 /* Debug */,
+				3EF6911D1F1220DF00F6EE86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EF6911E1F1220DF00F6EE86 /* Build configuration list for PBXNativeTarget "TCARTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF6911F1F1220DF00F6EE86 /* Debug */,
+				3EF691201F1220DF00F6EE86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EF691211F1220DF00F6EE86 /* Build configuration list for PBXNativeTarget "TCARUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF691221F1220DF00F6EE86 /* Debug */,
+				3EF691231F1220DF00F6EE86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3EF690FA1F1220DF00F6EE86 /* TCAR.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3EF690FB1F1220DF00F6EE86 /* TCAR.xcdatamodel */,
+			);
+			currentVersion = 3EF690FB1F1220DF00F6EE86 /* TCAR.xcdatamodel */;
+			path = TCAR.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3EF690E81F1220DF00F6EE86 /* Project object */;
+}
